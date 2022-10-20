@@ -34,7 +34,9 @@
     "module-alias": "^2.2.2"
   },
   "_moduleAliases": {
-    "@/*": "./src/*",
-    "@protocols/*": "./src/presentation/protocols/*"
-  }
+    "@~/*": "./src/*",
+    "@protocols/*": "./src/presentation/protocols/*",
+    "@errors/*": "./src/presentation/errors/*"
+  },
+  "_moduleDirectories": ["node_modules_custom"]
 }

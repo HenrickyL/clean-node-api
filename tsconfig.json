@@ -10,9 +10,9 @@
         "resolveJsonModule": true,
         "baseUrl": "./src",
         "paths": {
-            "@/*": ["./src/*"],
-            "@protocols/*": ["./src/presentation/protocols/*"]
-
-          }
+            "@~/*": ["./src/*"],
+            "@protocols/*": ["./src/presentation/protocols/*"],
+            "@errors/*": ["./src/presentation/v/*"]
+        }
     }
 }
