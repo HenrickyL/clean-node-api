@@ -13,3 +13,6 @@
   
 * Husky - validate & test for commits `npm i -D husky lint-staged`
   * lint-staged - rodar so nos arquivos que vão entrar
+
+* Jest - unit tests
+  * `npm install -D jest @types/jest ts-jest`
