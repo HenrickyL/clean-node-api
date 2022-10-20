@@ -1,6 +1,6 @@
 
 
-
+* `npm i -D git-commit-msg-linter`: respeitar padrões de commit
 * `npm init -y`
 * `npm i -D typescript @types/node`
   * [Node Green](node.green) - site com suportes de versão
