@@ -14,7 +14,7 @@ export class SignUpController{
   }
 
   private ValidateFields(httpRequest: HttpRequest<any>): HttpResponse<any>{
-    const requiredField = ['name', 'email']
+    const requiredField = ['name', 'email','password']
     for(const field of requiredField){
       if(!httpRequest.body[field]){
         return BadRequest(new MissingParamError(field))
